@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +7,6 @@
     body {
       background-image: url(nbk.jpg);
       background-size: cover;
-    }
-
-    body {
-      margin: 25px;
-    }
-
-    div.polaroid {
-      width: 30%;
-      background-color: white;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      margin-bottom: 25px;
-    }
-
-    div.container {
-      text-align: center;
-      padding: 2px 10px;
     }
 
     .main-content {
@@ -34,19 +17,37 @@
       gap: 25px;
     }
 
+    .rect1 {
+      border-radius: 20px;
+      gap: 20px;
+      padding: 0 10px;
+      display: flex;
+      flex-direction: column;
+      place-items: center;
+      background-color: antiquewhite;
+
+    }
     .rect2 {
       border-radius: 20px;
+      gap: 20px;
       padding: 0 10px;
+      display: flex;
+      flex-direction: column;
+      place-items: center;
       background-color: antiquewhite;
     }
-
     .rect3 {
       border-radius: 20px;
+      gap: 20px;
       padding: 0 10px;
+      display: flex;
+      flex-direction: column;
+      place-items: center;
       background-color: antiquewhite;
     }
 
-
+    
+    
 
     header {
       top: 0;
@@ -85,37 +86,37 @@
     header .logo {
       font-size: 30px;
     }
+
+    @media only screen and (min-width: 600px) {}
   </style>
 </head>
-
 <body>
-
   <header>
     <div class="logo">
       <a href="https://www.facebook.com/profile.php?id=61555619884844">
         <img src="1pic.jpg" width="80">
       </a>
     </div>
+    
     <ul>
+        
       <li><a href="">About</a></li>
-      <li><a href="2about.html">Contact</a></li>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="2about.html">Cotact</a></li>
     </ul>
   </header>
-
   <div class="main-content">
 
-    <div class="rect2">
+    <div class="rect1">
       <h1>
         Educaton:
       </h1>
       <p>
         Currently pursuing a Bachelor's/Master's/Ph.D. in Computer Science
         EMA EMITS College Philippines
-        (2021-2024) </p>
-    </div>
-
-    <div class="rect3">
+        (2021-2024) 
+      </p>
+      </div>
+      <div class="rect2">
       <h1>
         Skills:
       </h1>
@@ -127,29 +128,23 @@
         Understanding of databases (SQL, NoSQL)
       </p>
     </div>
-
-    
-      <h1>
+    <div class="rect2">
+    <h1>
         See My Project
       </h1>
-   
-    <div class="polaroid">
-      <img src="pro.jpg" style="width:100%">
-      <div class="container">
-        <p>T-halo</p>
-      </div>
     </div>
 
-    <div class="polaroid">
-      <img src="pr1.jpg" style="width:100%">
-      <div class="container">
-        <p>Raking Robot </p>
-      </div>
-    </div>
+      <div class="main-content">
+        <div>
+          <img src="pro.jpg" width="300" height="300">
+        </div>
 
-  </div>
-  
-  </div>
+        <div>
+          <a href="1about.html">
+            <img src="pr1.jpg" width="300" height="300">
+          </a>
+        </div>
+      </div>
 </body>
 
 </html>
