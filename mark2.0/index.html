@@ -5,12 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-   
     body {
       background-image: url(nbk.jpg);
-    
       background-size: cover;
-      height: 100vh;
     }
 
     .main-content {
@@ -20,19 +17,22 @@
       place-items: center;
       gap: 25px;
     }
-    .rect1{
-      width: 500px;
-      height: 210px;
+
+    .rect1 {
       border-radius: 20px;
-      gap: 50px;
+      gap: 20px;
       padding: 0 10px;
       display: flex;
+      flex-direction: column;
+      place-items: center;
       background-color: antiquewhite;
 
     }
-    img{
-      border-radius:50%;
+
+    img {
+      border-radius: 50%;
     }
+
     header {
       top: 0;
       position: sticky;
@@ -44,7 +44,7 @@
       place-items: center;
       color: white;
       padding: 0 20px;
-    
+
     }
 
     header ul {
@@ -52,7 +52,8 @@
       gap: 25px;
       font-size: 25px;
     }
-    header ul li{
+
+    header ul li {
       list-style: none;
     }
 
@@ -69,7 +70,8 @@
     header .logo {
       font-size: 30px;
     }
-    @media only screen and (max-width: 600px) {}
+
+    @media only screen and (min-width: 600px) {}
   </style>
 </head>
 
@@ -78,43 +80,41 @@
   <header>
     <div class="logo">
       <a href="https://www.facebook.com/profile.php?id=61555619884844">
-      <img src="1pic.jpg" width="80"> 
+        <img src="1pic.jpg" width="80">
       </a>
     </div>
     </div>
     <ul>
       <li><a href="index.html">Home</a></li>
-     
+
     </ul>
   </header>
   <div class="main-content">
+
     <div class="rect1">
-
-    <div>
-
-        <h1>
-
-          Profile :
-        </h1>
-        <p>
-          As a dedicated computer science student with a passion for problem-solving and innovation, I possess a strong foundation in programming languages such as Java and Python. Eager to apply theoretical knowledge gained in coursework to real-world challenges. Proven ability to collaborate in team environments, coupled with excellent communication skills. Seeking opportunities to contribute to cutting-edge projects and further enhance skills in software development and artificial intelligence.
-
-        </p>
-
-  <div class="main-content">
-
-    <div>
-
-      <img src="2pic.jpg" width="300" height="300" >
+      <h1>
+        Profile :
+      </h1>
+      <p>
+        As a dedicated computer science student with a passion for problem-solving and innovation, I possess a strong
+        foundation in programming languages such as Java and Python. Eager to apply theoretical knowledge gained in
+        coursework to real-world challenges. Proven ability to collaborate in team environments, coupled with
+        excellent communication skills. Seeking opportunities to contribute to cutting-edge projects and further
+        enhance skills in software development and artificial intelligence.
+      </p>
     </div>
 
-    <div>
-      <a href="1about.html">
-        <img src="p.png" width="128" height="128">
-      </a>
-    </div>
-    </div>
-  </div>
+      <div class="main-content">
+        <div>
+          <img src="2pic.jpg" width="300" height="300">
+        </div>
+
+        <div>
+          <a href="1about.html">
+            <img src="p.png" width="128" height="128">
+          </a>
+        </div>
+      </div>
 </body>
 
 </html>
