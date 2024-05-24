@@ -11,7 +11,19 @@
       background-size: cover;
       height: 100vh;
     }
+    body {margin:25px;}
 
+div.polaroid {
+  width: 30%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 2px 10px;
+}
     .main-content {
       display: flex;
       flex-direction: column;
@@ -19,6 +31,28 @@
       place-items: center;
       gap: 25px;
     }
+    .rect2{
+      width: 500px;
+      height: 130px;
+      border-radius: 20px;
+      padding: 0 10px;
+      background-color: antiquewhite;
+    }
+    .rect3{
+      width: 500px;
+      height: 150px;
+      border-radius: 20px;
+      padding: 0 10px;
+      background-color: antiquewhite;
+    }
+    .rect5{
+      width: 230px;
+      height: 30px;
+      border-radius: 20px;
+      padding: 0 10px;
+      background-color: antiquewhite;
+    }
+      
 
     header {
       top: 0;
@@ -64,18 +98,19 @@
   <header>
     <div class="logo">
       <a href="https://www.facebook.com/profile.php?id=61555619884844">
-      <img src="1pic.jpg" width="50"> 
+      <img src="1pic.jpg" width="80"> 
     </a>
     </div>
     <ul>
       
       <li><a href="">About</a></li>
       <li><a href="2about.html">Contact</a></li>
-
+      <li><a href="index.html">Home</a></li>
     </ul>
   </header>
-
+ 
   <div class="main-content">
+    <div class="rect2">
     <div>
         <h1>
 
@@ -85,7 +120,9 @@
           Currently pursuing a Bachelor's/Master's/Ph.D. in Computer Science
           EMA EMITS College Philippines
           (2021-2024)      </p>
-
+        
+      </div>
+        <div class="rect3">
           <h1>
 
             Skills:
@@ -96,22 +133,29 @@ Knowledgeable in data structures and algorithms
 Familiar with software development methodologies (Agile, Scrum, etc.)
 Experience with web development frameworks (such as Django, Flask, React, Angular, etc.)
 Understanding of databases (SQL, NoSQL)
-Proficiency in version control systems like Git
-Basic understanding of machine learning and artificial intelligence concepts
-Strong problem-solving and analytical skills
+
           </p>
+        </div>
+        <div class="rect5">
           <h1>
             See My Project
           </h1>
-    </div>
-    <div>
-      <img src="pro.jpg" width="500" height="394">
-    </div>
-    <div>
-      <a href="index.html">
-        <img src="home.png" width="128" height="128">
-      </a>
-    </div>
+          </div>
+          <div class="polaroid">
+            <img src="pro.jpg" style="width:100%">
+            <div class="container">
+            <p>T-halo</p>
+            </div>
+          </div>
+          
+          <div class="polaroid">
+            <img src="pr1.jpg"style="width:100%">
+            <div class="container">
+            <p>Raking Robot </p>
+            </div>
+          </div>
+  
+</div>
   </div>
   </div>
 </body>
