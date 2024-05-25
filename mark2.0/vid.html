@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Player</title>
+<style>
+   body {
+      background-image: url(nbk.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      place-items: center;
+      gap: 25px;
+    }
+  /* CSS styles for the video player */
+  .video-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<div class="video-container">
+  <video controls>
+    <source src="video.mp4" type="video/mp4">
+    <!-- Add additional source elements for different video formats if needed -->
+    Your browser does not support the video tag.
+  </video>
+ 
+</div>
+<div class="main-content">
+  <a href="1about.html">
+    <img src="back.png" width="128" height="128">
+  </a>
+</div>
+</body>
+</html>
