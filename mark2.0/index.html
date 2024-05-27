@@ -1,134 +1,53 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      background-image: url(nbk.jpg);
-      background-size: cover;
-    }
-
-    .main-content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      place-items: center;
-      gap: 25px;
-    }
-
-    .rect1 {
-      border-radius: 20px;
-      gap: 20px;
-      padding: 0 10px;
-      display: flex;
-      flex-direction: column;
-      place-items: center;
-      background-color: rgba(255, 255, 255, .4);
-      backdrop-filter: blur(10px) ;
-
-    }
+<html lang="en">
+  <head>
+    <title>markportfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     
-    .rect3 {
-      border-radius: 100px;
-      gap: 20px;
-      padding: 0 10px;
-      display: flex;
-      flex-direction: column;
-      place-items: center;
-      background-color: rgba(255, 255, 255, .4);
-    
-    }
-    img {
-      border-radius: 50%;
-    }
-
-    header {
-      top: 0;
-      position: sticky;
-      height: 100px;
-      background-color: rgba(255, 255, 255, .4);
-      backdrop-filter: blur(10px) ;
-      margin-bottom: 50px;
-      display: flex;
-      justify-content: space-between;
-      place-items: center;
-      color: white;
-      
-      padding: 0 20px;
-      box-shadow: -10px 0 10px rgb(7, 7, 8);
-
-    }
-
-    header ul {
-      display: flex;
-      gap: 25px;
-      font-size: 25px;
-    }
-
-    header ul li {
-      list-style: none;
-    }
-
-    header ul li a {
-      color: rgb(0, 0, 0);
-      text-decoration: none;
-    }
-
-    header ul li a:hover {
-      color: white;
-    }
-
-
-    header .logo {
-      font-size: 30px;
-    }
-
-    @media only screen and (min-width: 600px) {}
-  </style>
-</head>
-<body>
-  <header>
-    <div class="logo">
-      <a href="https://www.facebook.com/profile.php?id=61555619884844">
-        <img src="1pic.jpg" width="80">
-      </a>
-    </div>
-    
-    <ul>
-      
-      <li><a href="index.html">Home</a></li>
-   
-    </ul>
-  </header>
-  <div class="main-content">
-
-    <div class="rect1">
-      <h1>
-        Profile :
-      </h1>
-      <p>
-        As a dedicated computer science student with a passion for problem-solving and innovation, I possess a strong
-        foundation in programming languages such as Java and Python. Eager to apply theoretical knowledge gained in
-        coursework to real-world challenges. Proven ability to collaborate in team environments, coupled with
-        excellent communication skills. Seeking opportunities to contribute to cutting-edge projects and further
-        enhance skills in software development and artificial intelligence.
-      </p>
-    </div>
-
-      <div class="main-content">
-        <div>
-          <img src="2pic.jpg" width="300" height="300">
-        </div>
-
-        <div>
-          <div class="rect3">
-          <a href="1about.html">
-            <img src="p.png" width="128" height="128">
-          </div>
-          </a>
-        </div>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="hamburger" id="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+       </div>
+      <div class="navbar-link">
+        <ul>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="1about.html">ABOUT</a></li>
+          <li><a href="2about.html">CONTACT</a></li>
+        </ul>
       </div>
-</body>
+      <div class="mobile-navbar-link" id="menu">
+        <ul>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="1about.html">ABOUT</a></li>
+          <li><a href="2about.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="logo">
+        <h1>Port<span>folio</span></h1>
+      </div>
+    </nav>
 
+
+      <div class="content">
+        <div>
+            <h1>Hi!</h1>
+        </div>
+        <div>
+          <h2>Im, Mark Nicole</h2>         
+        </div>   
+        <div>
+          <h2>Garcia</h2>         
+        </div>  
+      </div>
+      <div class="image">
+        <img src="2pic.jpg" width="300" height="300">
+    </div>
+    <script src="java.js"></script>
+  </body>
 </html>
