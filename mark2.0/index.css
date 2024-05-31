@@ -37,12 +37,12 @@
     color: white;
     box-shadow: -10px 0 10px rgb(7, 7, 8);
   }
-  .navbar-link{
+  /* .navbar-link{
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  
+   */
   .navbar .logo {
     margin-right: 10px;
     color: rgb(132, 0, 255);
@@ -84,12 +84,12 @@
   img {
     border-radius: 50%;
   }
-  .navbar i{
+  /* .navbar i{
     font-style:normal;
       font-variant:normal;
       line-height: 2;
       text-rendering: auto;
-  }
+  } */
   
   body{
     background-image: url("BK2.jpg");
