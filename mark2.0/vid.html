@@ -10,13 +10,50 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
-    .main-content {
+   
+    header {
+      top: 0;
+    position: sticky;
+    height: 100px;
+    background-color: rgba(51, 50, 50, 0.4);
+    backdrop-filter: blur(10px) ;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    color: white;
+    box-shadow: -10px 0 10px rgb(0, 255, 242);
+  }
+  header ul {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      place-items: center;
       gap: 25px;
+      font-size: 25px;
     }
+
+    header ul li {
+      list-style: none;
+    }
+
+    header ul li a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      
+    }
+
+    header ul li a:hover {
+      color: white;
+     
+    }
+
+
+    header .logo {
+      font-size: 30px;
+    }
+    img {
+      border-radius: 50%;
+    }
+
+    @media only screen and (min-width: 600px) {}
   /* CSS styles for the video player */
   .video-container {
     max-width: 800px;
@@ -30,7 +67,16 @@
 </style>
 </head>
 <body>
-
+  <header>
+    <div class="logo">
+      <a href="https://www.facebook.com/profile.php?id=61555619884844">
+        <img src="1pic.jpg" width="80">
+      </a>
+    </div>
+    <ul>
+      <li><a href="1about.html">back ↩️</a></li>
+    </ul>
+  </header>
 <div class="video-container">
   <video controls>
     <source src="video.mp4" type="video/mp4">
@@ -39,10 +85,6 @@
   </video>
  
 </div>
-<div class="main-content">
-  <a href="1about.html">
-    <img src="back.png" width="128" height="128">
-  </a>
-</div>
+
 </body>
 </html>
