@@ -7,11 +7,11 @@
     margin-left: 5;
     margin-top: 100px;
     display: flex;
-    font-size: 3.5rem;
+    font-size: 4rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(132, 0, 255);
+    color: rgb(145, 27, 255);
   }
   
   .content h2{
@@ -21,14 +21,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(241, 241, 241);
+    color: rgb(255, 255, 255);
   }
   
   .navbar {
     top: 0;
     position: sticky;
     height: 100px;
-    background-color: rgba(17, 16, 16, 0.4);
+    background-color: rgba(51, 50, 50, 0.4);
     backdrop-filter: blur(10px) ;
     margin-bottom: 50px;
     display: flex;
@@ -45,16 +45,16 @@
    */
   .navbar .logo {
     margin-right: 10px;
-    color: rgb(132, 0, 255);
+    color: rgb(255, 0, 234);
     font-size: 30px;
     box-shadow: -10px 0 10px rgb(7, 7, 8);
-    background-color: #ffffff73; 
+    background-color: #fff5f552; 
    margin-top: 10px;
     }
   
   .logo h1 span {
-    color: black;
-    background-color: #ff11dfb2;
+    color: rgb(0, 0, 0);
+    background-color: #af02ffb2;
  
   }
   
@@ -93,7 +93,7 @@
   
   body{
     background-image: url("BK2.jpg");
-    background-repeat: no-repeat;
+   
     background-size: cover;
     height: 100vh;
   }
