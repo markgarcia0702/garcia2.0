@@ -41,13 +41,14 @@
   
 
   }
-  /* .navbar-link{
+  .navbar-link{
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-   */
-  .navbar .logo {
+  
+   /* backmly */
+  .navbar .logo { 
     margin-right: 10px;
     color: rgb(255, 0, 234);
     font-size: 30px;
@@ -55,24 +56,25 @@
     background-color: #fff5f552; 
    margin-top: 10px;
     }
-  
+  /* bckletmlya */
   .logo h1 span {
     color: rgb(0, 0, 0);
     background-color: #af02ffb2;
  
   }
-  
+  /* argdesmenu */
   ul {
     display: flex;
     justify-content: start;
   }
+   /* argdesspacemenu */
   ul li {
     list-style: none;
     margin-left: 62px;
     margin-top: 27px;
     font-size: 25px;
   }
-  
+  /* styledesmenu */
   ul li a {
     text-decoration: none;
     color: aliceblue;
@@ -102,6 +104,7 @@
     background-size: cover;
     height: 100vh;
   }
+  /* hidemenotthedes */
   .mobile-navbar-link{
     display: none;
       max-height: max-content;
@@ -111,6 +114,7 @@
       left: 0;
     
     }
+    /* argcpmenucolumn */
     .mobile-navbar-link ul{
       display: flex;
       flex-direction: column;
@@ -143,6 +147,7 @@
   .row {
    flex-direction: column;
   }
+  /* pstionofburg */
   .navbar {
     display: flex;
     align-items: center;
@@ -158,6 +163,7 @@
   #hamburger{
     display: block;
   }
+/* szeofbckcpmenu */
   ul li {
     list-style: none;
     margin-left: 10px;
@@ -166,6 +172,7 @@
     font-size: 10px;
 
   }
+  /* pstionofcpmenu */
   .mobile-navbar-link{
     display: none;
       max-height: max-content;
